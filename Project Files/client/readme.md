@@ -1,9 +1,34 @@
-# React + Vite
+###🎨 Frontend Setup (client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠 Tech Stack
+React.js
+Tailwind CSS
+Ant Design
+EmailJS
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+▶️ Steps to Run
+
+Navigate to the frontend folder:
+
+cd client
+
+
+
+Install dependencies:
+
+npm install
+
+
+Create a .env file in client/ and add:
+
+VITE_EMAILJS_SERVICE_NAME=your_emailjs_service_id
+VITE_EMAILJS_TEMPLATE_NAME=your_emailjs_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+
+
+Run the app:
+npm run dev
+
+The frontend runs on: http://localhost:5173
 
