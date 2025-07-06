@@ -1,6 +1,6 @@
 # 🏡 HouseHunt – Find Your Perfect Rental Home
 
-**HouseHaunt** is a modern full-stack rental property marketplace built with the **MERN stack**. It connects property owners with potential tenants, enabling property listing, search, and communication all in one place.
+**HouseHunt** is a modern full-stack rental property marketplace built with the **MERN stack**. It connects property owners with potential tenants, enabling property listing, search, and communication all in one place.
 
 
 ---
@@ -31,7 +31,7 @@
 
 ## 🛠️ Project Structure
 
-     HouseHaunt/
+     HouseHunt/
     ├── client/ # React frontend
     │ ├── components/
     │ ├── pages/
